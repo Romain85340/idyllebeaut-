@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./ressource/background/jazmin-quaynor-FoeIOgztCXo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+
+}
+li {
+    list-style: none;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #ffaff0;
+}
+h2 {
+    font-size: 50px;
+    color: #f2d6e8;
+    font-family: 'Dancing Script', cursive;
+}
+h3 {
+    font-size: 40px;
+    color: #67487b;
+    font-family: 'Dancing Script', cursive;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f2d6e8;
+}
+main {
+    padding-top: 90px;
+}
+
+
+/*NAVBAR*/
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #67487b;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+
+}
+nav ul {
+    display: flex;
+    flex: 1 1 500px;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: #ffaff0;
+}
+nav .logo {
+    color: #ffaff0;
+    flex: 1 1 500px;
+    margin-left: 100px;
+}
+.nav .logo:hover {
+    color: #f2d6e8;
+}
+nav h1 span {
+    margin-left: 30px;
+}
+
+/*MANUCURIE*/
+
+.manucurie {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background: #f2d6e8;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+}
+.manucurie img {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+    
+}
+.manucurie .title {
+    background: #67487b;
+    border: 3px solid #ffaff0;
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.manucurie .title h2 {
+    color: #f2d6e8;
+    text-align: center;
+}
+.contenu-manucurie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.manucurie a {
+    color: #f2d6e8;
+    background: #67487b;
+    border-radius: 40px;
+    padding: 8px 16px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transition: 1.5s;
+}
+.manucurie .liste-manucurie {
+    display: flex;
+    height: 100%;
+    justify-content: space-between
+}
+.liste-manucurie .service {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.manucurie .service li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #67487b;
+}
+.manucurie .prix {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.manucurie .prix li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #f2d6e8;
+    background: #67487b;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffaff0;
+}
+
+/*SOINS DU CORPS*/
+
+.corps {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background: #f2d6e8;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+}
+.contenu-corps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.corps .liste-corps {
+    display: flex;
+    height: 100%;
+    justify-content: space-between
+}
+.corps img {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+}
+.corps .title {
+    background: #67487b;
+    border: 3px solid #ffaff0;
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.corps .title h2 {
+    color: #f2d6e8;
+    text-align: center;
+}
+.corps .service {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between
+}
+.corps .service li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #67487b;
+}
+.corps .prix {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.corps .prix li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #f2d6e8;
+    background: #67487b;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffaff0;
+}
+.corps a {
+    color: #f2d6e8;
+    background: #67487b;
+    border-radius: 40px;
+    padding: 8px 16px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transition: 1.5s;
+}
+
+/*SOINS DU VISAGE*/
+
+.visage {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background: #f2d6e8;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+}
+.contenu-visage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.visage .liste-visage {
+    display: flex;
+    height: 100%;
+    justify-content: space-between
+}
+.visage img {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+}
+.visage .title {
+    background: #67487b;
+    border: 3px solid #ffaff0;
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.visage .title h2 {
+    color: #f2d6e8;
+    text-align: center;
+}
+.visage .service {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between
+}
+.visage .service li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #67487b;
+}
+.visage .prix {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.visage .prix li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #f2d6e8;
+    background: #67487b;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffaff0;
+}
+.visage a {
+    color: #f2d6e8;
+    background: #67487b;
+    border-radius: 40px;
+    padding: 8px 16px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transition: 1.5s;
+}
+
+/*EPILATION*/
+
+.epilation {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background: #f2d6e8;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+}
+.contenu-epilation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 1000px;
+}
+.epilation .liste-epilation {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.epilation img {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #67487b;
+    border-radius: 40px;
+}
+.epilation .title {
+    background: #67487b;
+    border: 3px solid #ffaff0;
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.epilation .title h2 {
+    color: #f2d6e8;
+    text-align: center;
+}
+.epilation .service {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between
+}
+.epilation .service li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #67487b;
+}
+.epilation .prix {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.epilation .prix li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #f2d6e8;
+    background: #67487b;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffaff0;
+}
+.epilation a {
+    color: #f2d6e8;
+    background: #67487b;
+    border-radius: 40px;
+    padding: 8px 16px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transition: 1.5s;
+}
+
+/*EPILATION FORFAIT*/
+
+.forfait {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.forfait .liste-forfait {
+    display: flex;
+    height: 100%;
+    justify-content: space-between
+}
+.title-forfait {
+    background: #67487b;
+    border: 3px solid #ffaff0;
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+h3 {
+    margin: 50px 0px;
+    text-align: center;
+}
+h3:after {
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 150px;
+    content:"";
+    background: #67487b;
+    margin-top: 10px
+}
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #67487b;
+    height: 120px;
+}
+footer h1 {
+    color: #f2d6e8;
+}
+footer h1 span {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1250px){
+    .manucurie {
+        width: 800px;
+        padding: 50px 10px;
+    }
+    .manucurie img {
+        width: 300px;
+        height: 300px;
+        margin-right: 20px;
+    }
+    .contenu-manucurie {
+        height: 800px;
+    }
+    .corps {
+        width: 800px;
+        padding: 50px 10px
+    }
+    .corps img {
+        width: 300px;
+        height: 300px;
+    }
+    .contenu-corps {
+        height: 350px;
+    }
+    .visage {
+        width: 800px;
+        padding: 50px 10px
+    }
+    .visage img {
+        width: 300px;
+        height: 300px;
+        margin-right: 20px;
+    }
+    .contenu-visage {
+        height: 350px;
+    }
+    .epilation {
+        width: 800px;
+        padding: 50px 10px
+    }
+    .epilation img {
+        width: 300px;
+        height: 300px;
+    }
+    .contenu-epilation {
+        height: 1000px;
+    }
+    .forfait {
+        height: 500px;
+    }
+    .forfait img {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 900px){
+    .manucurie {
+        width: 600px;
+    }
+    .contenu-manucurie {
+        flex-direction: column;
+        height: 950px;
+
+    }
+    .contenu-manucurie .liste-manucurie{
+        height: 500px;
+    }
+    .manucurie img {
+        margin-bottom: 50px;
+    }
+    .corps {
+        width: 600px;
+    }
+    .contenu-corps {
+        flex-direction: column-reverse;
+        height: 700px;
+
+    }
+    .contenu-corps .liste-corps {
+        height: 300px;
+    }
+    .corps img {
+        margin-bottom: 50px;
+    }
+    .visage {
+        width: 600px;
+    }
+    .contenu-visage {
+        flex-direction: column;
+        height: 700px;
+
+    }
+    .contenu-visage .liste-visage {
+        height: 300px;
+    }
+    .visage img {
+        margin-bottom: 50px;
+    }
+    .epilation {
+        width: 600px;
+    }
+    .contenu-epilation {
+        flex-direction: column-reverse;
+        height: 1200px;
+
+    }
+    .contenu-epilation .liste-epilation {
+        height: 900px;
+    }
+    .epilation img {
+        margin-bottom: 50px;
+    }
+    .forfait {
+        width: 600px;
+    }
+    .forfait {
+        flex-direction: column;
+        height: 700px;
+
+    }
+    .forfait .liste-forfait {
+        height: 300px;
+    }
+    .forfait img {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 780px){
+    nav {
+        flex-direction: column;
+        height: 120px;
+    }
+    nav ul {
+        width:100%;
+    }
+    nav .logo {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 700px){
+    .manucurie {
+        width: 400px;
+        padding: 20px;
+    }
+    .manucurie .title {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .manucurie .service {
+        width: 200px;
+    }
+    .manucurie .prix{
+        margin-left: 20px;
+    }
+    .manucurie .contenu-manucurie li {
+        font-size: 18px;
+    }
+    .manucurie a {
+        margin-top: 50px;
+    }
+    .corps {
+        width: 400px;
+        padding: 20px;
+    }
+    .corps .title {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .contenu-corps {
+        height: 550px;
+    }
+    .corps-liste {
+        height: 250px;
+    }
+    .corps .service {
+        width: 200px;
+    }
+    .corps .prix{
+        margin-left: 20px;
+    }
+    .corps .contenu-corps li {
+        font-size: 18px;
+    }
+    .corps a {
+        margin-top: 50px;
+    }
+    .visage {
+        width: 400px;
+        padding: 20px;
+    }
+    .visage .title {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .contenu-visage {
+        height: 550px;
+    }
+    .visage-liste {
+        height: 250px;
+    }
+    .visage .service {
+        width: 200px;
+    }
+    .visage .prix{
+        margin-left: 20px;
+    }
+    .visage .contenu-visage li {
+        font-size: 18px;
+    }
+    .visage a {
+        margin-top: 50px;
+    }
+    .epilation {
+        width: 400px;
+        padding: 20px;
+    }
+    .epilation .title {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .contenu-epilation {
+        height: 1200px;
+    }
+    .epilation-liste {
+        height: 250px;
+    }
+    .epilation .service {
+        width: 200px;
+    }
+    .epilation .prix{
+        margin-left: 20px;
+    }
+    .epilation .contenu-epilation li {
+        font-size: 18px;
+    }
+    .epilation a {
+        margin-top: 50px;
+    }
+    .forfait {
+        width: 350px;
+        align-items: center;
+    }
+    .contenu-forfait {
+        height: 800px;
+    }
+    .liste-forfait {
+        height:600px;
+        align-items: center;
+    }
+    .forfait .service {
+        width: 200px;
+    }
+    .forfait .prix{
+        margin-left: 20px;
+    }
+    .forfait .liste-forfait li {
+        font-size: 18px;
+    }
+    .visage a {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 450px){
+    h2 {
+        font-size: 30px;
+    }
+    .manucurie {
+        width:300px;
+        padding: 10px;
+    }
+    .manucurie .title {
+        width: 240px;
+    }
+    .contenu-manucurie {
+        height: 850px;
+    }
+    .manucurie img {
+        height: 250px;
+        width: 250px;
+        margin: 0;
+    }
+    .manucurie .service {
+        padding-right: 20px;
+    }
+    .manucurie .prix {
+        margin-left: 0
+    }
+    .manucurie .prix li {
+        font-size: 12px;
+    }
+    .corps {
+        width:300px;
+        padding: 10px;
+    }
+    .corps .title {
+        width: 240px;
+    }
+    .corps img {
+        width: 250px;
+    }
+    .corps .service {
+        padding-right: 10px;
+    }
+    .corps .prix {
+        margin-left: 0
+    }
+    .corps .prix li {
+        font-size: 12px;
+    }
+    .visage {
+        width:300px;
+        padding: 10px;
+    }
+    .visage .title {
+        width: 240px;
+    }
+    .visage img {
+        width: 250px;
+    }
+    .visage .service {
+        padding-right: 10px;
+    }
+    .visage .prix {
+        margin-left: 0
+    }
+    .visage .prix li {
+        font-size: 12px;
+    }
+    .epilation {
+        width:300px;
+        padding: 10px;
+    }
+    .epilation .title {
+        width: 240px;
+    }
+    .epilation img {
+        width: 250px;
+        height: 250px;
+    }
+    .epilation .liste-epilation {
+        height: 800px;
+    }
+    .epilation .service {
+        padding-right: 10px;
+        height: 800px;
+    }
+    .epilation .prix {
+        margin-left: 0;
+        height: 800px;
+    }
+    .epilation .prix li {
+        font-size: 12px;
+    }
+    .forfait {
+        width: 300px;
+    }
+    .forfait .service {
+        height: 400px;
+    }
+    .forfait .prix {
+        height: 400px;
+    }
+}

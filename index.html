@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idylle Beauté</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+</head>
+<body>
+    
+    <!--NAVBAR-->
+
+    <header>
+        <nav>
+            <div class=logo>
+                <a href="/" id=acceuil><h1>Idylle<br><span>Beauté</span></h1></a>
+            </div>
+            <ul>
+                <li><a href="index.html#info">L'institut</a></li>
+                <li><a href="index.html#option">Les services</a></li>
+                <li><a href="index.html#contactme">Contactez moi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--HERO-->
+
+    <main>
+        <section class="hero">
+            <h2>Idylle Beauté</h2>
+            <h3>Du soin au besoin, la beauté à portée de main!</h3>
+        </section>
+    
+    <!--PRESENTATION-->
+
+        <section class="presentation" id="info">
+            <h4>Votre estheticienne et son institut</h4>
+            <div class="institut">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <img src="./ressource/carousel/img-carousel.jpg" style="width:100%; height:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="./ressource/carousel/imgcarousel2.jpg" style="width:100%; height: 100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="./ressource/carousel/imgcarousel3.jpg" style="width:100%; height:100%;">
+                    </div>
+            
+                </div>
+                <p>Bienvenue à Idylle Beauté, Pauline vous acceuille dans son institut situé au centre de l'Aiguillon sur vie, ouvert du Mardi au Samedi. Jeune, dynamique, et passionnée par son métier, elle se fera une joie de vous apportez du bien être dans une ambiance chaleureuse et relaxante grace à ses soins visage, corps, épilation, onglerie ect.<br><span>Tentez l'experience !</span></p>
+            </div>
+        </section>
+
+    <!--SERVICE-->
+
+        <section class="services" id="option">
+            <h4>Les services</h4>
+            <div class="service">
+                <div class="box1">
+                    <img src="./ressource/service/Image-bon-cadeau-Manucurie_1.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h5>Manucurie</h5>
+                    <a href="service.html#service1">Plus d'infos</a>
+                </div>
+                <div class="box3">
+                    <img src="./ressource/service/Modelage-Ayurvédique.jpg" alt="">
+                </div>
+                <div class="box4">
+                    <h5>Soins du corps</h5>
+                    <a href="service.html#service2">Plus d'infos</a>
+                </div>
+                <div class="box5">
+                    <img src="./ressource/service/images.jpg" alt="">
+                </div>
+                <div class="box6">
+                    <h5>Soins visage</h5>
+                    <a href="service.html#service3">Plus d'infos</a>
+                </div>
+                <div class="box7">
+                    <img src="./ressource/service/epilation3.png" alt="">
+                </div>
+                <div class="box8">
+                    <h5>Epilation</h5>
+                    <a href="service.html#service4">Plus d'infos</a>
+                </div>
+            </div>
+        </section>
+
+    <!--CONTACT-->
+
+        <section class="contact" id="contactme">
+            <div class="renseignement">
+                <h5>Ou me trouver ?</h5>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2737.7644372986497!2d-1.829305484069136!3d46.670911679133745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4804508dd15eccf9%3A0xbbe18d5d48b8464!2s1%20Rue%20Georges%20Clemenceau%2C%2085220%20L&#39;Aiguillon-sur-Vie!5e0!3m2!1sfr!2sfr!4v1591703410246!5m2!1sfr!2sfr" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="adresse">
+                    <p2>21 ter rue Georges Clemenceau, 85002, Aiguillon sur vie.</p2>
+                    <p2 class="mail">idyllebeaute85@gmail.com / <span>Tel: 06-49-62-36-16</span></p2>
+                </div>
+                <h6>Heures d'ouverture</h6>
+                <div class="horaire">
+                    <p2>Mardi: 9h - 12h / 14h - 18h30</p2>
+                    <p2>Mercredi: 9h - 12h / 14h - 18h30</p2>
+                    <p2>Jeudi: 9h - 12h / 14h - 17h</p2>
+                    <p2>Vendredi: 9h - 12h / 14h - 18h30</p2>
+                    <p2>Samedi: 9h - 15h</p2>
+                    <p2>Lundi - Dimanche: Fermé</p2>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer>
+        <h1>Idylle<br><span>Beauté</span></h1>
+        <p3>Copyright Idylle beauté by Romain</p3>
+    </footer>
+    
+    <script type="text/javascript">
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+    </script>
+
+</body>
+</html>
