@@ -98,7 +98,6 @@ nav h1 span {
 }
 .manucurie .title {
     background: #67487b;
-    border: 3px solid #ffaff0;
     border-radius: 40px;
     padding: 10px 20px;
     width: 500px;
@@ -160,7 +159,6 @@ nav h1 span {
     padding: 5px 10px;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid #ffaff0;
 }
 
 /*SOINS DU CORPS*/
@@ -196,7 +194,6 @@ nav h1 span {
 }
 .corps .title {
     background: #67487b;
-    border: 3px solid #ffaff0;
     border-radius: 40px;
     padding: 10px 20px;
     width: 500px;
@@ -233,7 +230,6 @@ nav h1 span {
     padding: 5px 10px;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid #ffaff0;
 }
 .corps a {
     color: #f2d6e8;
@@ -282,7 +278,6 @@ nav h1 span {
 }
 .visage .title {
     background: #67487b;
-    border: 3px solid #ffaff0;
     border-radius: 40px;
     padding: 10px 20px;
     width: 500px;
@@ -319,7 +314,6 @@ nav h1 span {
     padding: 5px 10px;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid #ffaff0;
 }
 .visage a {
     color: #f2d6e8;
@@ -369,7 +363,6 @@ nav h1 span {
 }
 .epilation .title {
     background: #67487b;
-    border: 3px solid #ffaff0;
     border-radius: 40px;
     padding: 10px 20px;
     width: 500px;
@@ -406,7 +399,6 @@ nav h1 span {
     padding: 5px 10px;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid #ffaff0;
 }
 .epilation a {
     color: #f2d6e8;
@@ -438,7 +430,6 @@ nav h1 span {
 }
 .title-forfait {
     background: #67487b;
-    border: 3px solid #ffaff0;
     border-radius: 40px;
     padding: 10px 20px;
     width: 250px;
