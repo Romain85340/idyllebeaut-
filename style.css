@@ -204,7 +204,6 @@ nav h1 span {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 5px;
-    grid-auto-flow: dense;
     width: 1015px;
     margin: 0 auto;
     padding-bottom: 50px;
