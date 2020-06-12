@@ -608,7 +608,7 @@ footer h1 span {
 @media screen and (max-width: 700px){
     .manucurie {
         width: 400px;
-        padding: 20px;
+        padding: 50px 20px;
     }
     .manucurie .title {
         width: 300px;
@@ -628,7 +628,7 @@ footer h1 span {
     }
     .corps {
         width: 400px;
-        padding: 20px;
+        padding: 50px 20px;
     }
     .corps .title {
         width: 300px;
@@ -654,7 +654,7 @@ footer h1 span {
     }
     .visage {
         width: 400px;
-        padding: 20px;
+        padding: 50px 20px;
     }
     .visage .title {
         width: 300px;
@@ -680,7 +680,7 @@ footer h1 span {
     }
     .epilation {
         width: 400px;
-        padding: 20px;
+        padding: 50px 20px;
     }
     .epilation .title {
         width: 300px;
@@ -724,7 +724,7 @@ footer h1 span {
     .forfait .liste-forfait li {
         font-size: 18px;
     }
-    .visage a {
+    .epilation a {
         margin-top: 50px;
     }
 }
@@ -734,7 +734,7 @@ footer h1 span {
     }
     .manucurie {
         width:300px;
-        padding: 10px;
+        padding: 40px 10px;
     }
     .manucurie .title {
         width: 240px;
@@ -758,7 +758,7 @@ footer h1 span {
     }
     .corps {
         width:300px;
-        padding: 10px;
+        padding: 40px 10px;
     }
     .corps .title {
         width: 240px;
@@ -777,7 +777,7 @@ footer h1 span {
     }
     .visage {
         width:300px;
-        padding: 10px;
+        padding: 40px 10px;
     }
     .visage .title {
         width: 240px;
@@ -796,7 +796,7 @@ footer h1 span {
     }
     .epilation {
         width:300px;
-        padding: 10px;
+        padding: 40px 10px;
     }
     .epilation .title {
         width: 240px;
@@ -827,5 +827,8 @@ footer h1 span {
     }
     .forfait .prix {
         height: 400px;
+    }
+    .epilation a {
+        margin-top: 50px;
     }
 }
