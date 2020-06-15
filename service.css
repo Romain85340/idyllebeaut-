@@ -581,13 +581,12 @@ footer h1 span {
         margin-bottom: 50px;
     }
     .forfait {
-        width: 600px;
-    }
-    .forfait {
+        width: 580px;
         flex-direction: column;
         height: 700px;
-
+        align-items: center;
     }
+    
     .forfait .liste-forfait {
         height: 300px;
     }
@@ -723,6 +722,9 @@ footer h1 span {
     .forfait .prix{
         margin-left: 20px;
     }
+    .forfait img {
+        margin-right: 0px;
+    }
     .forfait .liste-forfait li {
         font-size: 18px;
     }
@@ -822,7 +824,8 @@ footer h1 span {
         font-size: 12px;
     }
     .forfait {
-        width: 300px;
+        width: 280px;
+        height: 750px;
     }
     .forfait .service {
         height: 400px;
