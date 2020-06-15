@@ -78,7 +78,12 @@ nav .logo {
     flex: 1 1 500px;
     margin-left: 100px;
 }
-nav h1 span {
+nav .logo a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #ffaff0;
+}
+nav .logo a span {
     margin-left: 30px;
 }
 
