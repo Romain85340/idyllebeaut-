@@ -20,16 +20,11 @@ li {
     list-style: none;
 }
 h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 35px;
-    color: #ffaff0;
-}
-h2 {
     font-size: 50px;
     color: #f2d6e8;
     font-family: 'Dancing Script', cursive;
 }
-h3 {
+h2 {
     font-size: 40px;
     color: #67487b;
     font-family: 'Dancing Script', cursive;
@@ -69,10 +64,15 @@ nav .logo {
     flex: 1 1 500px;
     margin-left: 100px;
 }
+nav .logo a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #ffaff0;
+}
 .nav .logo:hover {
     color: #f2d6e8;
 }
-nav h1 span {
+nav .logo a span {
     margin-left: 30px;
 }
 
@@ -104,7 +104,7 @@ nav h1 span {
     margin: auto;
     margin-bottom: 100px;
 }
-.manucurie .title h2 {
+.manucurie .title h1 {
     color: #f2d6e8;
     text-align: center;
 }
@@ -200,7 +200,7 @@ nav h1 span {
     margin: auto;
     margin-bottom: 100px;
 }
-.corps .title h2 {
+.corps .title h1 {
     color: #f2d6e8;
     text-align: center;
 }
@@ -284,7 +284,7 @@ nav h1 span {
     margin: auto;
     margin-bottom: 100px;
 }
-.visage .title h2 {
+.visage .title h1 {
     color: #f2d6e8;
     text-align: center;
 }
@@ -369,7 +369,7 @@ nav h1 span {
     margin: auto;
     margin-bottom: 100px;
 }
-.epilation .title h2 {
+.epilation .title h1 {
     color: #f2d6e8;
     text-align: center;
 }
@@ -437,11 +437,11 @@ nav h1 span {
     margin-bottom: 100px;
     margin-top: 30px;
 }
-h3 {
+h2 {
     margin: 50px 0px;
     text-align: center;
 }
-h3:after {
+h2:after {
     display: block;
     margin: 0 auto;
     height: 2px;
@@ -462,6 +462,7 @@ footer {
 }
 footer h1 {
     color: #f2d6e8;
+    font-size: 30px;
 }
 footer h1 span {
     margin-left: 30px;
@@ -730,7 +731,7 @@ footer h1 span {
     }
 }
 @media screen and (max-width: 450px){
-    h2 {
+    h1 {
         font-size: 30px;
     }
     .manucurie {
