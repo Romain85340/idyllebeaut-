@@ -614,7 +614,7 @@ footer h1 span {
     }
     .manucurie .title {
         width: 300px;
-        margin-bottom: 50px;
+        margin-bottom: 50px !important;
     }
     .manucurie .service {
         width: 200px;
@@ -626,7 +626,7 @@ footer h1 span {
         font-size: 18px;
     }
     .manucurie a {
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
     .corps {
         width: 400px;
@@ -634,7 +634,7 @@ footer h1 span {
     }
     .corps .title {
         width: 300px;
-        margin-bottom: 50px;
+        margin-bottom: 50px !important;
     }
     .contenu-corps {
         height: 550px;
@@ -652,7 +652,7 @@ footer h1 span {
         font-size: 18px;
     }
     .corps a {
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
     .visage {
         width: 400px;
@@ -660,7 +660,7 @@ footer h1 span {
     }
     .visage .title {
         width: 300px;
-        margin-bottom: 50px;
+        margin-bottom: 50px !important;
     }
     .contenu-visage {
         height: 550px;
@@ -678,7 +678,7 @@ footer h1 span {
         font-size: 18px;
     }
     .visage a {
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
     .epilation {
         width: 400px;
@@ -686,7 +686,7 @@ footer h1 span {
     }
     .epilation .title {
         width: 300px;
-        margin-bottom: 50px;
+        margin-bottom: 50px !important;
     }
     .contenu-epilation {
         height: 1200px;
@@ -704,7 +704,7 @@ footer h1 span {
         font-size: 18px;
     }
     .epilation a {
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
     .forfait {
         width: 350px;
@@ -725,9 +725,6 @@ footer h1 span {
     }
     .forfait .liste-forfait li {
         font-size: 18px;
-    }
-    .epilation a {
-        margin-top: 50px;
     }
 }
 @media screen and (max-width: 450px){
