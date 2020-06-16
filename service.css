@@ -8,8 +8,8 @@ body {
     background-image: url(./ressource/background/jazmin-quaynor-FoeIOgztCXo-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat !important;
     background-attachment: fixed;
+    background-repeat: no-repeat !important;
 }
 a {
     text-decoration: none;

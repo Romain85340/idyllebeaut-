@@ -88,11 +88,11 @@ nav .logo a span {
     background: url(./ressource/background/test.jpg);
     background-position: center right;
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat !important;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-attachment: fixed;
 }
 .hero h1 {
     font-family: 'Dancing Script', cursive;
