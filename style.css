@@ -87,9 +87,13 @@ nav .logo a span {
     height: 100vh;
     background-image: url(./ressource/background/test.jpg);
     background-position: center right;
+    -webkit-background-position: center right;
     background-size: cover;
+    -webkit-background-size: cover;
     background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -315,9 +319,13 @@ nav .logo a span {
 .contact {
     background-image: url(./ressource/background/annie-spratt-Zxl_m4KVZDs-unsplash.jpg);
     background-size: cover;
+    -webkit-background-size: cover;
     background-position: center;
+    -webkit-background-position: center;
     background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
