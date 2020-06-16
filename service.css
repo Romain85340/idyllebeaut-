@@ -640,10 +640,7 @@ footer h1 span {
         margin-bottom: 50px !important;
     }
     .contenu-corps {
-        height: 550px;
-    }
-    .corps-liste {
-        height: 250px;
+        height: 650px;
     }
     .corps .service {
         width: 200px;
@@ -668,10 +665,7 @@ footer h1 span {
         margin-bottom: 50px !important;
     }
     .contenu-visage {
-        height: 550px;
-    }
-    .visage-liste {
-        height: 250px;
+        height: 650px;
     }
     .visage .service {
         width: 200px;
@@ -697,9 +691,6 @@ footer h1 span {
     }
     .contenu-epilation {
         height: 1200px;
-    }
-    .epilation-liste {
-        height: 250px;
     }
     .epilation .service {
         width: 200px;
