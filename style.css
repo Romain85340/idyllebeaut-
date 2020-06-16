@@ -85,11 +85,11 @@ nav .logo a span {
 
 .hero {
     height: 100vh;
-    background: url(./ressource/background/test.jpg);
+    background-image: url(./ressource/background/test.jpg);
     background-position: center right;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat !important;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
