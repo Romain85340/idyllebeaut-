@@ -227,8 +227,6 @@ nav .logo a span {
     background: #67487b;
     color: #f2d6e8;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 .service img {
